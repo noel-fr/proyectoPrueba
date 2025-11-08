@@ -1,0 +1,24 @@
+# Binarios y objetos de compilación
+[Bb]in/
+[Oo]bj/
+*.pdb
+*.dll
+*.exe
+
+# IDE (Rider/Visual Studio)
+.idea/
+*.user
+*.suo
+*.sln.ide
+rider.project.model.nuget.info
+rider.project.restore.info
+
+# NuGet
+**/packages/
+project.assets.json
+project.nuget.cache
+
+# Archivos de configuración sensibles/generados
+**/firebase-credentials.json
+**/appsettings.Development.json
+Config/*.json
