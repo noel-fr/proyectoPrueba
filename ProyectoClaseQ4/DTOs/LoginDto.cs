@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 namespace ProyectoClaseQ4.DTOs;
 
-public class LoginDTo
+public class LoginDto
 {
     [Required(ErrorMessage ="El email es requerido")]
     [EmailAddress(ErrorMessage ="El email es invalido")]
